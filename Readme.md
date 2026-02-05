@@ -19,8 +19,9 @@ React.js, Node.js, Express.js, MongoDB, CSS3, Socket.IO, JWT, Google OAuth
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/Geeteshgit/CampusHive.git
-   cd CampusHive
+   git clone https://github.com/codewithsambhav26/CampusHive-learning.git
+   cd CampusHive-learning
+
 
 2. **Backend Setup**
    ```bash
