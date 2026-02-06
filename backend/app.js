@@ -24,7 +24,7 @@ connectToDB();
 
 const allowedOrigins = [
   "http://localhost:5174",
-  "https://campushive-learning.vercel.app"
+  process.env.CLIENT_URL
 ];
 
 app.use(
@@ -39,6 +39,7 @@ app.use(
     credentials: true,
   })
 );
+
 
 
 app.use(helmet());
